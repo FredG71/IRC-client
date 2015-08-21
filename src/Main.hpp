@@ -8,7 +8,7 @@ LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 
 namespace Hash {
 	auto Equalizer = [](TCHAR* a, TCHAR* b) -> bool {
-		return !wcscmp(a, b);
+        return !wcscmp(a, b);
 	};
 }
 
